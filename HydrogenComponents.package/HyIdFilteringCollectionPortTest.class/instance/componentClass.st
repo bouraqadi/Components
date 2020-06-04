@@ -1,3 +1,3 @@
-tests
+running
 componentClass
 	^HyComponentForIdFilteringCollectionPortTest 

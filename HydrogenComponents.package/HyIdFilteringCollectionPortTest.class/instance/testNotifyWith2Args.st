@@ -1,4 +1,4 @@
-tests
+running
 testNotifyWith2Args
 	a port
 		notificationSelector: #countIs:plus:;

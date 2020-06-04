@@ -1,4 +1,4 @@
-tests
+running
 testNotifyWith1Arg
 	a port
 		notificationSelector: #count:;
