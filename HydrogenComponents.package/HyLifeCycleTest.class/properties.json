@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "HydrogenComponents-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"component"
+	],
+	"name" : "HyLifeCycleTest",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+living
+isStopped
+	^isStarted not

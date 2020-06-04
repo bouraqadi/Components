@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "HyNotifier",
+	"category" : "HydrogenComponents-Kernel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elementsDict"
+	],
+	"name" : "HyIdFilteringCollectionPort",
+	"type" : "normal"
+}

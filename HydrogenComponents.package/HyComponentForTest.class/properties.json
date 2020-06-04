@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "HyComponent",
+	"category" : "HydrogenComponents-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count",
+		"port"
+	],
+	"name" : "HyComponentForTest",
+	"type" : "normal"
+}

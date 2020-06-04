@@ -1,0 +1,3 @@
+living
+basicStop
+	^self
