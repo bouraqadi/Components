@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "HydrogenComponents-Tests",
+	"category" : "HydrogenComponents-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"count",
-		"port"
+		"countPort"
 	],
-	"name" : "HyComponentForTest",
+	"name" : "HyCounter",
 	"type" : "normal"
 }

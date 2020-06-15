@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "HydrogenComponents-Kernel",
+	"category" : "HydrogenComponents-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"isStarted"
+		"startedDict",
+		"stoppedDict"
 	],
-	"name" : "HyComponent",
+	"name" : "HyLifeCycleObserver",
 	"type" : "normal"
 }

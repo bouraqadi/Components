@@ -1,4 +1,7 @@
 testing
 setUp
 	super setUp.
-	component := HyComponent new
+	component := HyStartableComponent new.
+	observer := HyLifeCycleObserver new.
+	component @ #startPort => observer.
+	component @ #stopPort => observer.

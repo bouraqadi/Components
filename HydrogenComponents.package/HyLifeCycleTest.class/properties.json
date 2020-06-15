@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"component"
+		"component",
+		"observer"
 	],
 	"name" : "HyLifeCycleTest",
 	"type" : "normal"
