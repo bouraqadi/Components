@@ -1,3 +1,3 @@
 actions
 triggerIncrement
-	port notify
+	portA notify

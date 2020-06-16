@@ -1,3 +1,3 @@
 running
 testDefaultSelector
-	self deny: a port notificationSelector isNil 
+	self deny: a portA notificationSelector isNil 

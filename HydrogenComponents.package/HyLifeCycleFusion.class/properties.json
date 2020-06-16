@@ -1,15 +1,16 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "HydrogenComponents-Tests",
+	"category" : "HydrogenComponents-Kernel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"count",
-		"portA",
-		"portB"
+		"subjects",
+		"startPort",
+		"stopPort",
+		"stoppedSubjects"
 	],
-	"name" : "HyComponentForTest",
+	"name" : "HyLifeCycleFusion",
 	"type" : "normal"
 }

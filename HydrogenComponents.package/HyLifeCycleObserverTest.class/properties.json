@@ -6,9 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"component",
+		"subject1",
+		"subject2",
+		"subject3",
+		"observer",
 		"counter"
 	],
-	"name" : "HyLifeCycleTest",
+	"name" : "HyLifeCycleObserverTest",
 	"type" : "normal"
 }

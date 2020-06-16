@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"startedDict",
-		"stoppedDict"
+		"startCount",
+		"stopCount"
 	],
-	"name" : "HyLifeCycleObserver",
+	"name" : "HyStartStopCounterForTest",
 	"type" : "normal"
 }

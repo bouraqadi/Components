@@ -1,6 +1,6 @@
 running
 testConnecting
-	a port
+	a portA
 		notificationSelector: #incrementCount;
 		add: b id: #b;
 		addAll: { c. d} id: #c;

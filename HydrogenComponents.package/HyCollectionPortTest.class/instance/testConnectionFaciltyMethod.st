@@ -1,6 +1,6 @@
 running
 testConnectionFaciltyMethod
-	(a @ #port)
+	(a @ #portA)
 		notificationSelector: #incrementCount;
 		=> b;
 		=> { c. d}.

@@ -1,6 +1,6 @@
 running
 testNotifyWith2Args
-	a port
+	a portA
 		notificationSelector: #countIs:plus:;
 		add: b id: #b;
 		addAll: { c. d} id: #x.

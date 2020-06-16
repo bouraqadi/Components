@@ -1,3 +1,3 @@
 *HydrogenComponents
-@ portName
-	^self instVarNamed: portName
+@ anObject
+	^anObject asPortOf: self

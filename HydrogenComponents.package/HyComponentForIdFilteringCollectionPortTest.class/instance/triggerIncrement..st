@@ -1,3 +1,3 @@
 actions
 triggerIncrement: id
-	port notify: id
+	portA notify: id

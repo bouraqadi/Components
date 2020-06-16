@@ -1,7 +1,7 @@
 testing
 testStart
-	self assert: (observer startCountAt: component) equals: 0.
+	self assert: counter startCount equals: 0.
 	component start.
 	self deny: component isStopped.
 	self assert: component isStarted.
-	self assert: (observer startCountAt: component) equals: 1.
+	self assert: counter startCount equals: 1.

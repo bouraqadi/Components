@@ -1,6 +1,6 @@
 running
 testNotifyWith1Arg
-	a port 
+	a portA 
 		notificationSelector: #count:;
 		addAll: {b. c.}.
 	#(10 20 30) do: [ : expectedCount |

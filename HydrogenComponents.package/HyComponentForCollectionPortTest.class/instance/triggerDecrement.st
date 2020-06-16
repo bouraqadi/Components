@@ -1,0 +1,3 @@
+actions
+triggerDecrement
+	portB notify

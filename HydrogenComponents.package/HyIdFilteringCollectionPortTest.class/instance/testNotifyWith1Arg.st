@@ -1,6 +1,6 @@
 running
 testNotifyWith1Arg
-	a port
+	a portA
 		notificationSelector: #count:;
 		add: b id: #b;
 		addAll: { c. d} id: #x.

@@ -1,3 +1,3 @@
 actions
 triggerSetCount: newCount
-	port notifyWith: newCount
+	portA notifyWith: newCount
