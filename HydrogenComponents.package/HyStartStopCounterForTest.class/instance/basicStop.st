@@ -1,3 +1,3 @@
 actions
-stopped: anObject
+basicStop
 	self stopCount: self stopCount + 1

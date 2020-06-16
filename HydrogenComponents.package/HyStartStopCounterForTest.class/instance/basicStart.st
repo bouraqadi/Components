@@ -1,3 +1,3 @@
 actions
-started: anObject
+basicStart
 	self startCount: self startCount + 1

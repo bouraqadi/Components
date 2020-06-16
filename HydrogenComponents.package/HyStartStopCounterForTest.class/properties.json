@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "HyStartableComponent",
 	"category" : "HydrogenComponents-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
