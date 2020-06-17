@@ -1,3 +1,3 @@
 actions
 basicStop
-	self stopCount: self stopCount + 1
+	self stopped: nil

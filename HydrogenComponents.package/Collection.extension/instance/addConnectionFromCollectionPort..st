@@ -1,3 +1,3 @@
 *HydrogenComponents
 addConnectionFromCollectionPort: aPort
-	aPort addAll: self
+	self do: [ : each | each addConnectionFromCollectionPort: aPort ]

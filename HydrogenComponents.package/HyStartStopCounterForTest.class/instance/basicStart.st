@@ -1,3 +1,3 @@
 actions
 basicStart
-	self startCount: self startCount + 1
+	self started: nil
