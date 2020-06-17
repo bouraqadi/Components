@@ -1,3 +1,3 @@
 *HydrogenComponents
 addConnectionFromCollectionPort: aPort
-	HyAdapter from: aPort to: self.
+	^HyAdapter from: aPort to: self.
