@@ -1,3 +1,3 @@
 connecting
 add: newElement id: id
-	(self listenersAt: id) add: newElement.
+	newElement addConnectionFromCollectionPort: (self subPortAt: id).

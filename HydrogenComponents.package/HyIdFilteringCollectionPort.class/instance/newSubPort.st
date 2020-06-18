@@ -1,0 +1,3 @@
+connecting
+newSubPort
+	^ HyCollectionPort notificationSelector: self notificationSelector

@@ -1,5 +1,5 @@
 notifying
 notify: id with: arg
-	| listeners |
-	listeners := elementsDict at: id ifAbsent: [^self].
-	listeners do: [: each | each perform: notificationSelector with: arg]
+	| subPort |
+	subPort := subPortsDict at: id ifAbsent: [^self].
+	subPort notifyWith: arg.
