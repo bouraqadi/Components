@@ -1,3 +1,3 @@
 *HydrogenComponents
-@ anObject
+-@ anObject
 	^anObject asPortOf: self

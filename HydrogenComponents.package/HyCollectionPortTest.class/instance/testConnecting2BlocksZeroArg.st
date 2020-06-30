@@ -3,7 +3,7 @@ testConnecting2BlocksZeroArg
 	| success yes |
 	success := false.
 	yes := false.
-	a @ #portA 
+	a -@ #portA 
 		notificationSelector: #incrementCount;
 		=> {[ success := true ]. [yes := true]}.
 	a triggerIncrement.

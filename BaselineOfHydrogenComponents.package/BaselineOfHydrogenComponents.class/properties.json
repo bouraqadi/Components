@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "HyBaselineOfHydrogenComponents",
+	"name" : "BaselineOfHydrogenComponents",
 	"type" : "normal"
 }

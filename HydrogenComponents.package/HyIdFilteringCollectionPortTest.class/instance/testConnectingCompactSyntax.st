@@ -8,7 +8,7 @@ testConnectingCompactSyntax
 			#(c d) -> { c. d}.
 			#y ->  [: value | y := value ].
 		}.
-	a portA @ #x =>  [: value | x := value ].
+	a portA -@ #x =>  [: value | x := value ].
 	a triggerSetCount: 10 id: #b.
 	a triggerSetCount: 21 id: #c.
 	a triggerSetCount: 22 id: #d.

@@ -5,7 +5,7 @@ incrementCounter
 	Transcript clear; open.
 	counter := HyCounter new.
 	display := HyConsole new.
-	(counter @ #countPort) 
+	(counter -@ #countPort) 
 		notificationSelector: #log:;
 		=> display.
 	[

@@ -8,4 +8,4 @@ setUp
 	observer observe: subject1.
 	observer observeAll: {subject2. subject3}.
 	counter := HyStartStopCounterForTest new.
-	observer @ #(startPort stopPort) => counter.
+	observer -@ #(startPort stopPort) => counter.

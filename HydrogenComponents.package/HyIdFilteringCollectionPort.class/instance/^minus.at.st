@@ -1,3 +1,3 @@
 connecting
-@ id
+-@ id
 	^self subPortAt: id

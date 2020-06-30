@@ -1,7 +1,7 @@
 running
 testConnectingBlockWith1Arg
 	| received |
-	a @ #portA 
+	a -@ #portA 
 		notificationSelector: #count:;
 		add: [: value | received := value ] id: #b.
 	a triggerSetCount: 123 id: #b.

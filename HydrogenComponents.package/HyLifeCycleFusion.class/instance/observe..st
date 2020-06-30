@@ -2,4 +2,4 @@ connecting
 observe: aComponent
 	subjects add: aComponent.
 	stoppedSubjects add: aComponent.
-	aComponent @ #(startPort stopPort) => self.
+	aComponent -@ #(startPort stopPort) => self.

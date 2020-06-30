@@ -2,7 +2,7 @@ running
 testConnectingBlockZeroArg
 	| success |
 	success := false.
-	a @ #portA 
+	a -@ #portA 
 		notificationSelector: #incrementCount;
 		=> [ success := true ].
 	a triggerIncrement.
