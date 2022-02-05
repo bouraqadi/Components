@@ -1,0 +1,4 @@
+*HydrogenComponents
+isAdapterFor: aBlockClosure
+
+	^false

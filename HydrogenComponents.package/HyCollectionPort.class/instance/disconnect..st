@@ -1,3 +1,4 @@
 connecting
-disconnect: anObject 
-	elements remove: anObject ifAbsent: [  ]
+disconnect: anObject
+
+	anObject removeConnectionFromCollectionPort: self

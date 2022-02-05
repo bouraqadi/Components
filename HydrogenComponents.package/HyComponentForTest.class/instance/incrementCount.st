@@ -1,3 +1,4 @@
 actions
 incrementCount
-	count := count + 1.
+
+	self count: self count + 1
