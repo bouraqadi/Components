@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #HydrogenComponents!
-SystemOrganization addCategory: #'HydrogenComponents-Kernel'!
-SystemOrganization addCategory: #'HydrogenComponents-Tests'!
+self packageOrganizer ensurePackage: #HydrogenComponents withTags: #('Kernel' 'Tests')!
